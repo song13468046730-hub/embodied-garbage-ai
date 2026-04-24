@@ -40,3 +40,6 @@ dataset/images/
 
 # Temporary staging created by local scripts
 dataset/_split_staging/
+
+# Ultralytics label caches
+*.cache
