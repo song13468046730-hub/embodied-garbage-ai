@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ultralytics cache and generated files
+.ultralytics/
+Ultralytics/
+
+# Training outputs
+runs/
+plots/
+results/
+
+# Downloaded packages and local archives
+packages/
+*.zip
+*.7z
+*.rar
+
+# Model weights and exported artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# Dataset images are backed up separately, keep only labels in Git
+dataset/images/
+
+# Temporary staging created by local scripts
+dataset/_split_staging/
