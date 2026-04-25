@@ -1,5 +1,4 @@
 glass
 metal
-paper
 plastic
 trash
